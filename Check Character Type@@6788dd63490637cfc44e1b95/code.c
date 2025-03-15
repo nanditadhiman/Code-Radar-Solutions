@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     char a;
-    int b;
+     int a;
     scanf("%c",&a);
     scanf("%d",&b);
     if(a=='A'||a=='a'|| a=='E'||a=='e'||a=='I'||a=='i'||a=='O'||a=='o'||a=='U'||a=='u'){
@@ -13,7 +13,7 @@ int main(){
     else if((a>='A'&&a>'Z')||(a<='a'&&a<='z')){
         printf("Consonant");
     }
-    else if(b >='0' &&b <='9'){
+    else if(a >='0' &&a <='9'){
         printf("Digit");
     }
     return 0;
