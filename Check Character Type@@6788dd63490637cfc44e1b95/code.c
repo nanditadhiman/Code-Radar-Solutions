@@ -10,10 +10,10 @@ int main(){
         printf("Consonant");
     }
     if(b=='!'||b=='@'||b=='#'||b=='%'||b=='&'|b=='^'||b=='*'){
-        printf("Digit");
+        printf("Special Character");
     }
     else{
-        printf("Special Character");
+        printf("Digit");
     }
     return 0;
 }
