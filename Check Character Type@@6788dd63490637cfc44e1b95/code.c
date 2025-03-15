@@ -6,13 +6,13 @@ int main(){
     if(a=='A'||a=='a'|| a=='E'||a=='e'||a=='I'||a=='i'||a=='O'||a=='o'||a=='U'||a=='u'){
         printf("Vowel");
     }
-    else{
+    else if{
         printf("Consonant");
     }
-    if(b=='!'||b=='@'||b=='#'||b=='%'||b=='&'|b=='^'||b=='*'){
+    else if(b=='!'||b=='@'||b=='#'||b=='%'||b=='&'|b=='^'||b=='*'){
         printf("Special Character");
     }
-    else{
+    else if{
         printf("Digit");
     }
     return 0;
