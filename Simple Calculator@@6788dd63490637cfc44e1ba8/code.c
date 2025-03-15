@@ -18,23 +18,23 @@ int main() {
 
     // Step 4: Perform calculation based on operator
     if (c == '+') {
-        printf("Result: %d\n", a + b);
+        printf("%d", a + b);
     } 
     else if (c == '-') {
-        printf("Result: %d\n", a - b);
+        printf("%d", a - b);
     } 
     else if (c == '*') {
-        printf("Result: %d\n", a * b);
+        printf("%d", a * b);
     } 
     else if (c == '/') {
         if (b != 0) {  // Prevent division by zero
-            printf("Result: %d\n", a / b);
+            printf("%d", a / b);
         } else {
-            printf("Error: Division by zero is not allowed.\n");
+            printf("Error");
         }
     } 
     else {
-        printf("Error: Invalid operator.\n");
+        printf("Error");
     }
 
     return 0;
