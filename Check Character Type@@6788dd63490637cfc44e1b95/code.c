@@ -10,10 +10,10 @@ int main(){
     else if(a=='!'||a=='@'||a=='#'||a=='$'||a=='%'||a=='^'||a=='&'||a=='*'){
         printf("Special Character");
     }
-    else if(a!='A'&&a!='a'&& a!='E'&&a!='e'&&a!='I'&&a!='i'&&a!='O'&&a!='o'&&a!='U'&&a!='u'){
+    else if((a>='A'&&a>'a')||(a<='Z&&a<='z)){
         printf("Consonant");
     }
-    else if(b>='0'&&b<='9'){
+    else{
         printf("Digit");
     }
     return 0;
