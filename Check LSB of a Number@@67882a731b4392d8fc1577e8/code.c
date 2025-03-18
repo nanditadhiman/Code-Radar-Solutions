@@ -2,4 +2,6 @@
 int main(){
     int a;
     scanf("%d",&a);
+    printf("Set");
+    return 0;
 }
