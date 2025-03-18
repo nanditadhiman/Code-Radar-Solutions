@@ -7,6 +7,7 @@ int main(){
         printf("* \n",i);
         i--;
         printf("*",i);
+        break;
     
     }
     return 0;
