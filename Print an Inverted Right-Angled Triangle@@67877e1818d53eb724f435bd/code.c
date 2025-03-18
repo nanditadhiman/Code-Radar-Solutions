@@ -5,7 +5,8 @@ int main(){
     int i=0;
     do{
         i=i+1;
-        printf("*",i);
+        printf("*\n",i);
+        printf("*",i-1);
     }while(i<N);
     return 0;
 }
