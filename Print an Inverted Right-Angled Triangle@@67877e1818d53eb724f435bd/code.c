@@ -5,6 +5,7 @@ int main(){
     int i;
     for(i=0;i<N;i++){
         printf("* ",i);
+        printf("* ",i-1);
     }
     return 0;
 }
