@@ -6,6 +6,7 @@ int main(){
     do{
         i=i+1;
         printf("*\n",i);
+        printf("*\n",i-1);
     }while(i<N);
     return 0;
 }
