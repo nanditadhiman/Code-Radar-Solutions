@@ -7,5 +7,4 @@ for(int i=0;i<n-1;i++){
     int next=a+b;
     a=b;
     b=next;
-    return 0;
 }
