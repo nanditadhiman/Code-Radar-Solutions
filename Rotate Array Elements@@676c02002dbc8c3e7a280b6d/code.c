@@ -1,9 +1,9 @@
 #include<stdio.h>
 void reverse(int arr[],int n);
 int main(){
-    int arr[n];
     int n;
     scanf("%d",&n);
+    int arr[n];
     return 0;
 }
 void reverse(int arr[],int n){
