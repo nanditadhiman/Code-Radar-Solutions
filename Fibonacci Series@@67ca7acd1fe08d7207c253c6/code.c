@@ -3,7 +3,7 @@ int fibonacciSeries(int N);
 int main(){
     int N;
     scanf("%d",&N);
-    if(n<=0){
+    if(N<=0){
         printf("Invalid input\n");
     }
     for(int i=0;i<N;i++){
