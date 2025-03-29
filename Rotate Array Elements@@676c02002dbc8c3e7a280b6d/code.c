@@ -1,11 +1,11 @@
 #include<stdio.h>
-int reverse(int arr[],int n);
+void reverse(int arr[],int n);
 void printarr(int arr[],int n);
 int main(){
     int n;
     scanf("%d",&n);
-    reverse(arr[],n);
-    printarr(arr[],n);
+    reverse(arr,n);
+    printarr(arr,n);
     return 0;
 }
 void printarr(int arr[],int n){
@@ -13,7 +13,7 @@ void printarr(int arr[],int n){
         printf("%d\n",arr[i]);
     }
 }
-int reverse(int arr[],int n){
+void reverse(int arr[],int n){
     if(int i=0;i<n/2;i++){
         int temp=arr[i];
         arr[i]=arr[n-i-1];
