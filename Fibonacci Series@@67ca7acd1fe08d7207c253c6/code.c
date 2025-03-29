@@ -22,6 +22,6 @@ int fibonacciSeries(int N){
     for(int i=0;i<N;i++){
         printf("%d\t",fibonacciSeries(i));
     }
-    return fibonacciSeries(n-1)+fibonacciSeries(n-2);
+    return fibonacciSeries(N-1)+fibonacciSeries(N-2);
     
 }
