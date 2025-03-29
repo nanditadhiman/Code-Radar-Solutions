@@ -1,7 +1,7 @@
 #include<stdio.h>
 void reverse(int arr[],int n);
 int main(){
-    int arr[];
+    int arr[n];
     int n;
     scanf("%d",&n);
     return 0;
