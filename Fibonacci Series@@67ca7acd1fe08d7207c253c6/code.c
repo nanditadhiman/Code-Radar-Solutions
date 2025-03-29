@@ -12,11 +12,11 @@ int main(){
     return 0;
 }
 int fibonacciSeries(int N){
-    if(n==1){
+    if(N==1){
         return 1;
     }
-    else if(n==0){
+    else if(N==0){
         return 0;
     }
-    return fibonacciSeries(n-1) + fibonacciSeries(n-2);
+    return fibonacciSeries(N-1) + fibonacciSeries(N-2);
 }
