@@ -12,8 +12,10 @@ int main() {
     
     int arr[n];  // Declare array dynamically based on input
     
+    // Print the entered size
+    printf("%d\n", n);
+    
     // Take array elements as input
-    printf("%d", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -30,13 +32,13 @@ int main() {
 // Function to Print Array
 void printarr(int arr[], int n) {
     for (int i = 0; i < n; i++) {
-        printf("%d\n", arr[i]);
+        printf("%d\n", arr[i]); // Print each number in a new line
     }
 }
 
 // Function to Reverse Array
 void reverse(int arr[], int n) {
-    for (int i = 0; i < n / 2; i++) {  // Fixed syntax error
+    for (int i = 0; i < n / 2; i++) {
         int temp = arr[i];
         arr[i] = arr[n - i - 1];
         arr[n - i - 1] = temp;
