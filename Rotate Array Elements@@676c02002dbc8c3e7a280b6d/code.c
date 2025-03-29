@@ -4,8 +4,8 @@ void printarr(int arr[],int n);
 int main(){
     int n;
     scanf("%d",&n);
-    reverse(arr,n);
-    printarr(arr,n);
+    reverse(arr[],n);
+    printarr(arr[],n);
     return 0;
 }
 void printarr(int arr[],int n){
