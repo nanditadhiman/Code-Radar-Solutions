@@ -1,5 +1,5 @@
 #include<stdio.h>
-int  reverse(int arr[],int n);
+int reverse(int arr[],int n);
 void printarr(int arr[],int n);
 int main(){
     int n;
