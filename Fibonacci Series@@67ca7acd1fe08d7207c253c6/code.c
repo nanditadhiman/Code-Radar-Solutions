@@ -12,6 +12,7 @@
 //     }
 //     return 0;
 // }
+int fibonacciSeries(int N);
 int fibonacciSeries(int N){
     if(N==1){
         return 0;
