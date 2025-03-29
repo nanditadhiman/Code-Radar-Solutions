@@ -19,5 +19,8 @@ int fibonacciSeries(int N){
     else if(N==0){
         return 0;
     }
-    return fibonacciSeries(N-1) + fibonacciSeries(N-2);
+    for(int i=0;i<N;i++){
+        printf("%d\t",fibonacciSeries(i-1) + fibonacciSeries(i-2));
+    }
+    
 }
