@@ -14,14 +14,14 @@
 // }
 int fibonacciSeries(int N);
 int fibonacciSeries(int N){
+    for(int i=0;i<N;i++){
+        printf("%d\t",fibonacciSeries(i));
+    }
     if(N==1){
         return 0;
     }
     else if(N==0){
         return 0;
-    }
-    for(int i=0;i<N;i++){
-        printf("%d\t",fibonacciSeries(i));
     }
     return fibonacciSeries(N-1)+fibonacciSeries(N-2);
     
