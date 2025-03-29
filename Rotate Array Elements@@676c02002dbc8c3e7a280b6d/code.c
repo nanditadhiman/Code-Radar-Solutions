@@ -2,9 +2,10 @@
 int  reverse(int arr[],int n);
 void printarr(int arr[],int n);
 int main(){
-    int arr[]={1,2,3,4,5};
-    reverse(arr,5);
-    printarr(arr,5);
+    int n;
+    scanf("%d",&n);
+    reverse(arr,n);
+    printarr(arr,n);
     return 0;
 }
 void printarr(int arr[],int n){
