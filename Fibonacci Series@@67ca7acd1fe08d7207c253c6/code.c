@@ -20,7 +20,8 @@ int fibonacciSeries(int N){
         return 0;
     }
     for(int i=0;i<N;i++){
-        printf("%d\t",fibonacciSeries(i-1) + fibonacciSeries(i-2));
+        printf("%d\t",fibonacciSeries(i));
     }
+    return fibonacciSeries(n-1)+fibonacciSeries(n-2);
     
 }
