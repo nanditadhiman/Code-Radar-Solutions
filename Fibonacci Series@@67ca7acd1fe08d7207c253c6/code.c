@@ -15,5 +15,5 @@ int fibonacciSeries(int n){
     else if(n==0){
         return 0;
     }    
-    return fibonacciSeries(n-1)+fiboncciSeries(n-2);
+    return fibonacciSeries(n-1)+fibonacciSeries(n-2);
 }
