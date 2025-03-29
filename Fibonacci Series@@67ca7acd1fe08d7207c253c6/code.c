@@ -1,10 +1,10 @@
 #include<stdio.h>
-int fib(int n);
+int fibonacciSeries(int n);
 int main(){
     int n;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
-        printf("%d",fib(i));
+        printf("%d",fibonacciSeries(i));
     }
     return 0;
 }
@@ -15,5 +15,5 @@ int fib(int n){
     else if(n==0){
         return 0;
     }    
-    return fib(n-1)+fib(n-2);
+    return fibonaciSeries(n-1)+fiboncciSeries(n-2);
 }
