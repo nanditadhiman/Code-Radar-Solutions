@@ -8,7 +8,7 @@ int main(){
     }
     return 0;
 }
-int fiboncciSeries(int n){
+int fibonacciSeries(int n){
     if(n==1){
         return 1;
     }
