@@ -8,13 +8,12 @@ int main() {
     int n;
     
     // Take array size as input
-    printf("Enter size of array: ");
     scanf("%d", &n);
     
     int arr[n];  // Declare array dynamically based on input
     
     // Take array elements as input
-    printf("Enter %d elements:\n", n);
+    printf("%d", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -23,7 +22,7 @@ int main() {
     reverse(arr, n);
 
     // Print the reversed array
-    printf("Reversed array:\n");
+    printf("%d\n",printarr{arr,n});
     printarr(arr, n);
 
     return 0;
