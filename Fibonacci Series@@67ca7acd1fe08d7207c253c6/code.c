@@ -1,6 +1,6 @@
 #include<stdio.h>
 int fibonacciSeries(int N);
-int fibonacciSeries(){
+int main(){
     int N;
     scanf("%d",&N);
     if(N<=0){
