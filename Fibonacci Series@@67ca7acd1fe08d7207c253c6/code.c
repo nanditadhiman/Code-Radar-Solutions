@@ -6,7 +6,7 @@ int main(){
     if(n<=0){
         printf("Invalid input\n");
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<N;i++){
         printf("%d\t",fibonacciSeries(i));
     }
     return 0;
