@@ -5,6 +5,7 @@ int main(){
     scanf("%d",&N);
     if(N<=0){
         printf("Invalid input\n");
+        return 0;
     }
     for(int i=0;i<N;i++){
         printf("%d\t",fibonacciSeries(i));
