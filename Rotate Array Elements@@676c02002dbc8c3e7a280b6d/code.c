@@ -22,7 +22,6 @@ int main() {
     reverse(arr, n);
 
     // Print the reversed array
-    printf("%d\n",n);
     printarr(arr, n);
 
     return 0;
