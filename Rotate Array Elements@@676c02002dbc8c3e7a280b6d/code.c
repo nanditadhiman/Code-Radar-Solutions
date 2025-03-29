@@ -12,9 +12,6 @@ int main() {
     
     int arr[n];  // Declare array dynamically based on input
     
-    // Print the entered size
-    printf("%d\n", n);
-    
     // Take array elements as input
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
