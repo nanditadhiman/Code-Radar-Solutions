@@ -7,7 +7,7 @@ int main(){
             if(row==2 &&col==2){
                 printf("\t");
             }
-            printf("* ");
+            printf("*");
         }
         printf("\n");
     }
